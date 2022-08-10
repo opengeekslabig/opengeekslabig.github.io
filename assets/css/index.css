@@ -143,6 +143,7 @@ section{
 .swiper-button-next,
 .swiper-button-prev,
 .swiper-pagination-progressbar{
+    box-sizing: border-box;
     position: relative;
     right: 0;
     left: 0;
