@@ -1,0 +1,132 @@
+.all_sizes{
+
+}
+
+.all_sizes .all_sizes_row{
+    margin-top: 50px;
+    margin-bottom: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 160px;
+}
+
+.all_sizes_img{
+    position: relative;
+}
+
+.all_sizes_img img{
+    position: absolute;
+    bottom: -30px;
+    z-index: -1;
+}
+
+.all_sizes_cards_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/*FLIP CARD*/
+
+.flip-card {
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 100%;
+    height: 386px;
+    filter: drop-shadow(10px 10px 15px rgba(255, 179, 216, 0.4));
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front .card_title{
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    text-align: center;
+}
+
+.flip-card-front img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+
+    /* Style the back side */
+.flip-card-back {
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+
+}
+
+.flip-card-back .flip_body{
+    padding: 32px;
+    text-align: start;
+}
+
+.flip-card-back .flip_body p{
+    margin-top: 24px;
+}
+
+
+@media (max-width: 1400px) {
+    .flip-card {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .all_sizes .all_sizes_row{
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .all_sizes_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .all_sizes_img img{
+        position: static;
+        bottom: 0;
+        z-index: 1;
+    }
+    .all_sizes_cards_row{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .flip-card {
+        height: 250px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}

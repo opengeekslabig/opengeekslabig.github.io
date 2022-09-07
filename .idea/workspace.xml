@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a2484e-95fe-415e-b96e-6f113ba48444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/technologies.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/technologies/android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/technologies/flatter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/technologies/ios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/technologies/rn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/all_sizes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/all_sizes/card1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/all_sizes/card2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/all_sizes/card3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/all_sizes/poster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom_solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_solution.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -34,6 +33,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/all_sizes" />
       <recent name="$PROJECT_DIR$/assets/img/technologies" />
       <recent name="$PROJECT_DIR$/assets/img/custom_solution" />
       <recent name="$PROJECT_DIR$/assets/img/awards" />

@@ -50,6 +50,7 @@ p{
 
 body section{
     padding: 0 360px;
+    overflow: hidden;
 }
 /*HEADER*/
 header{
