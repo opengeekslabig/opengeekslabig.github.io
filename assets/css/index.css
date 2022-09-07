@@ -1,6 +1,77 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body section{
+    padding: 0 360px;
+}
+/*HEADER*/
+header{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+}
+
+.header_top{
+    height: 150px;
+    padding: 0 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_bottom{
+    padding-left: 360px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.header_bottom_left{
+    align-self: center;
+}
+
+.header_bottom_left_title{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 74px;
+}
+
+.header_bottom_left_desc{
+    margin-top: 47px;
+    margin-bottom: 32px;
+}
+
+.header_bottom_right{
+    flex-grow: 1;
+}
+
+.header_bottom_right img{
+    max-width: 100%;
+}
+
+
+.header_logo{
+    height: 75px;
+}
+
+.btn_contact_us{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #ED6165;
+    box-shadow: 4px 4px 15px rgba(237, 97, 101, 0.45);
+    border-radius: 100px;
+    width: 177px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
