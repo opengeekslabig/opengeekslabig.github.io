@@ -1,6 +1,5 @@
 .custom_solution{
     padding: 48px 0 142px 0;
-
 }
 
 .custom_solution .custom_solution_row1{
@@ -10,8 +9,7 @@
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.custom_solution
-.custom_solution_row1>.custom_solution_img{
+.custom_solution .custom_solution_row1>.custom_solution_img{
     position: relative;
 }
 
@@ -43,8 +41,7 @@
         grid-gap: 10px;
         margin-top: 0;
     }
-    .custom_solution
-    .custom_solution_row1>.custom_solution_img{
+    .custom_solution .custom_solution_row1>.custom_solution_img{
         grid-column-start: 1;
         grid-row-start: 1;
         text-align: center;

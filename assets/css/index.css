@@ -110,7 +110,7 @@ header{
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
     .header_top{
         padding: 0 150px;
     }
