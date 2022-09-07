@@ -1,0 +1,34 @@
+.awards{
+    margin-top: 48px;
+}
+
+.awards .awards_desc{
+    margin-top: 24px;
+}
+
+.awards .awards_logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 100px 0;
+}
+
+.awards .awards_logos>.awards_logo_elem{
+    width: 100px;
+}
+
+.awards .awards_logos>.awards_logo_elem img{
+    width: 100%;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
