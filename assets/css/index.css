@@ -355,7 +355,8 @@ section{
 }
 
 .cases_card_body.blue {
-    background: linear-gradient(197.96deg, #62A3E2 -4.93%, #1B557B 110.08%);}
+    background: linear-gradient(197.96deg, #62A3E2 -4.93%, #1B557B 110.08%);
+}
 
 @media (max-width: 1600px) {
     section {
