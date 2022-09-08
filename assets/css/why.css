@@ -1,0 +1,54 @@
+.why{
+    padding-top: 48px;
+    padding-bottom: 142px;
+}
+
+.why .why_desc{
+    margin: 50px 0;
+    width: 488px;
+}
+
+.why .why_props{
+    display: flex;
+    gap:224px;
+}
+
+.why .why_props .why_prop{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.why .why_prop_elem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+
+@media (max-width: 1400px) {
+    .why .why_props{
+        gap:150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .why .why_props{
+        gap:50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .why .why_props{
+        flex-direction: column;
+        gap:24px;
+    }
+    .why .why_desc{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
