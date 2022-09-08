@@ -1,0 +1,55 @@
+.models{
+    padding-top: 48px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.models .models_desc{
+    margin: 50px 0;
+    width: 488px;
+}
+
+.models_row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.models_card_header{
+    cursor: pointer;
+    width: 100%;
+    padding: 32px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+    box-shadow: 5px 5px 6px rgba(255, 179, 216, 0.4);
+    position: relative;
+}
+
+.models_card_header p{
+    margin-top: 40px;
+}
+
+.models .models_hidden_card{
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 15px);
+    /*width: 110%;*/
+    z-index: 5;
+    top: 125px;
+    left: -5px;
+    background: white;
+    transition: opacity 0.5s;
+}
+
+.models_card_header:hover .models_hidden_card{
+    opacity: 0;
+}
+
+.gradient{
+    height: 30px;
+    position: absolute;
+    top: -29px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%);
+}
