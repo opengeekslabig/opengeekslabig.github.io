@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a2484e-95fe-415e-b96e-6f113ba48444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/why.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/why/ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/provide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/specialists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/specialists/card8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/numbers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/process.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/process.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/all_sizes.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/all_sizes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/specialists" />
       <recent name="$PROJECT_DIR$/assets/img/why" />
       <recent name="$PROJECT_DIR$/assets/img/numbers" />
       <recent name="$PROJECT_DIR$/assets/img/process" />
       <recent name="$PROJECT_DIR$/assets/img/all_sizes" />
-      <recent name="$PROJECT_DIR$/assets/img/technologies" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660208410697</updated>
       <workItem from="1660208412379" duration="320000" />
-      <workItem from="1662620008663" duration="10341000" />
+      <workItem from="1662620008663" duration="16773000" />
     </task>
     <servers />
   </component>

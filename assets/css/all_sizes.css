@@ -29,7 +29,7 @@
 
 /*FLIP CARD*/
 
-.flip-card {
+.all_sizes .flip-card {
     box-sizing: border-box;
     background-color: transparent;
     width: 100%;
@@ -39,7 +39,7 @@
 }
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
+.all_sizes .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -49,12 +49,12 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.all_sizes .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.all_sizes .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -62,38 +62,38 @@
     backface-visibility: hidden;
 }
 
-.flip-card-front .card_title{
+.all_sizes .flip-card-front .card_title{
     position: absolute;
     top: 96px;
     width: 100%;
     text-align: center;
 }
 
-.flip-card-front img{
+.all_sizes .flip-card-front img{
     width: 100%;
     height: 100%;
     object-fit: cover ;
 }
 
     /* Style the back side */
-.flip-card-back {
+.all_sizes .flip-card-back {
     transform: rotateY(180deg);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
 
 }
 
-.flip-card-back .flip_body{
+.all_sizes .flip-card-back .flip_body{
     padding: 32px;
     text-align: start;
 }
 
-.flip-card-back .flip_body p{
+.all_sizes .flip-card-back .flip_body p{
     margin-top: 24px;
 }
 
 
 @media (max-width: 1400px) {
-    .flip-card {
+    .all_sizes .flip-card {
         height: 400px;
     }
 }
@@ -120,7 +120,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .flip-card {
+    .all_sizes .flip-card {
         height: 250px;
     }
 }
