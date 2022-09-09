@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a2484e-95fe-415e-b96e-6f113ba48444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/models.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/studies.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/process/arrow_v.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/all_sizes.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/all_sizes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/awards.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/awards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom_solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom_solution.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/models.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/models.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/numbers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/process.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/process.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/provide.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/provide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/specialists.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/specialists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/technologies.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/technologies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/why.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/why.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +40,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/process" />
       <recent name="$PROJECT_DIR$/assets/img/specialists" />
       <recent name="$PROJECT_DIR$/assets/img/why" />
       <recent name="$PROJECT_DIR$/assets/img/numbers" />
-      <recent name="$PROJECT_DIR$/assets/img/process" />
       <recent name="$PROJECT_DIR$/assets/img/all_sizes" />
     </key>
   </component>
@@ -47,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660208410697</updated>
       <workItem from="1660208412379" duration="320000" />
-      <workItem from="1662620008663" duration="20029000" />
+      <workItem from="1662620008663" duration="20696000" />
+      <workItem from="1662707457696" duration="4046000" />
     </task>
     <servers />
   </component>

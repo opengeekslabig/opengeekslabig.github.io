@@ -61,6 +61,13 @@
     .provide .provide_row_elem{
         width: 100%;
     }
+    .provide{
+        padding-bottom: 50px;
+    }
+    .provide .provide_desc{
+        width: auto;
+    }
+
 }
 
 @media (max-width: 576px) {}

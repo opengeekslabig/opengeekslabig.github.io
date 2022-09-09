@@ -32,6 +32,9 @@
     justify-content: space-around;
     align-items: flex-end;
 }
+.numbers .numbers_row_mob{
+    display: none;
+}
 
 .numbers .numbers_text{
     color: #281D4C;
@@ -58,6 +61,22 @@
 
 @media (max-width: 992px) {}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .numbers{
+        padding-bottom: 50px;
+    }
+}
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .numbers .numbers_row1,
+    .numbers .numbers_row2{
+        display: none;
+    }
+    .numbers .numbers_row_mob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+}

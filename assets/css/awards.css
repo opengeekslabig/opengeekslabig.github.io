@@ -31,4 +31,8 @@
 
 @media (max-width: 768px) {}
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .awards .awards_logos{
+        margin: 50px 0;
+    }
+}

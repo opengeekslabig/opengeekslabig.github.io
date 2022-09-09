@@ -49,6 +49,10 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .why{
+        padding-bottom: 50px;
+    }
+}
 
 @media (max-width: 576px) {}

@@ -53,3 +53,17 @@
     z-index: 5;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%);
 }
+
+@media (max-width: 768px) {
+    .models_row{
+        grid-template-columns: 1fr;
+        /*gap: 20px;*/
+    }
+    .models_hidden_card{
+        display: none;
+    }
+    .models .models_desc{
+        width: auto;
+    }
+
+}

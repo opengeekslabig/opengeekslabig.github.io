@@ -60,4 +60,14 @@
 
 @media (max-width: 768px) {}
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .custom_solution{
+        padding: 48px 0 50px 0;
+    }
+    .custom_solution .custom_solution_row1{
+        margin-bottom: 50px;
+    }
+    .custom_solution .custom_solution_row2{
+        grid-gap: 50px;
+    }
+}

@@ -127,7 +127,14 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .specialists{
+        padding-bottom: 50px;
+    }
+    .specialists .specialists_desc{
+        width: auto;
+    }
+}
 
 @media (max-width: 576px) {
     .specialists .flip-card {
