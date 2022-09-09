@@ -3,7 +3,113 @@
     padding-bottom: 142px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
 .studies .studies_desc{
     margin: 50px 0;
     width: 488px;
 }
+
+.studies .studies_swiper_card{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.studies .studies_card_info{
+    flex-basis: 50%;
+    align-self: flex-start;
+    padding-top: 48px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.studies .studies_card_actions{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.studies .studies_card_actions .studies_arrow_right,
+.studies .studies_card_actions .studies_arrow_left{
+    cursor: pointer;
+}
+
+.studies .studies_card_actions .studies_arrow_right{
+    transform: rotate(180deg);
+}
+
+.studies .studies_card_actions .studies_see_full{
+    background: #ED6165;
+    height: 56px;
+    padding: 16px 50px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.studies .studies_card_subtitle{
+    margin: 24px 0;
+}
+
+.studies .studies_card_desc_bottom{
+    margin-top: 78px;
+    margin-bottom: 12px;
+}
+
+.studies .studies_portfolio{
+    align-self: center;
+    border-radius: 100px;
+    border: 1px solid #ED6165;
+    height: 56px;
+    padding: 16px 50px;
+    color: #ED6165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.studies .studies_swiper_card img{
+
+    /*width:100%;*/
+    /*height:100%;*/
+    /*object-fit:cover;*/
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .studies .studies_card_info{
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .studies{
+        padding-bottom: 50px;
+    }
+    .studies .studies_desc{
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {}
