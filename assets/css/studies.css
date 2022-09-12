@@ -8,6 +8,26 @@
     height: 100%;
 }
 
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swiper-wrapper{
+    display: flex;
+}
+
 .studies .studies_desc{
     margin: 50px 0;
     width: 488px;
@@ -35,6 +55,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
+    width: 100%;
 }
 
 .studies .studies_card_actions .studies_arrow_right,
@@ -93,6 +115,33 @@
     /*object-fit:cover;*/
 }
 
+.studies_card_mobile_header{
+    display: none;
+    width: 100%;
+    background: linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%) no-repeat bottom;
+    background-size: 100% 50%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.studies_card_mobile_header_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.studies_card_mobile_header_info .title{
+
+}
+
+.studies_card_mobile_header_info .subtitle{
+    font-weight: 700;
+}
+
 @media (max-width: 1400px) {}
 
 @media (max-width: 1200px) {
@@ -101,7 +150,37 @@
     }
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .studies .studies_card_actions .studies_arrow_right,
+    .studies .studies_card_actions .studies_arrow_left{
+       display: none;
+    }
+    .studies .studies_card_actions{
+        width: auto;
+    }
+    .studies .studies_swiper_card .image{
+        display: none;
+    }
+    .studies_card_header img{
+        display: block;
+    }
+
+    .studies .studies_card_info{
+        flex-basis: 100%;
+        padding: 24px 42px;
+    }
+    .studies .studies_card_info .studies_card_title,
+    .studies .studies_card_info .studies_card_subtitle
+    {
+        display: none;
+    }
+    .studies .studies_card_desc_bottom{
+        margin-top: 48px;
+    }
+    .studies_card_mobile_header{
+        display: flex;
+    }
+}
 
 @media (max-width: 768px) {
     .studies{
