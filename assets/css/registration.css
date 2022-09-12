@@ -1,0 +1,64 @@
+.registration{
+    padding-top: 48px;
+    padding-bottom: 142px;
+}
+
+.registration_row{
+    margin-top: 50px;
+}
+
+.custom-input-file {
+    position: relative;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #9097A6;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #3E4148;
+    padding: 4px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#file-field {
+    display: none;
+}
+
+.custom-input-file small {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 8px);
+}
+
+.custom-input-file .wpcf7-form-control-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.custom-input-file .wpcf7-not-valid-tip {
+    right: 0;
+    left: auto;
+    top: 8px;
+}
+
+.custom-input-file:after {
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-image: url('../images/attachment.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 768px) {
+    .registration{
+        padding-bottom: 50px;
+    }
+}

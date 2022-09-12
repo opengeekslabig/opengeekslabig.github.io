@@ -6,6 +6,8 @@
 .swiper {
     width: 100%;
     height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+
 }
 
 .swiper-slide {
@@ -35,7 +37,6 @@
 
 .studies .studies_swiper_card{
     width: 100%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,22 +109,28 @@
     text-align: center;
 }
 
-.studies .studies_swiper_card img{
+.studies .studies_swiper_card .image{
+    flex-basis: 50%;
+}
 
-    /*width:100%;*/
-    /*height:100%;*/
-    /*object-fit:cover;*/
+.studies .studies_swiper_card .image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 .studies_card_mobile_header{
     display: none;
     width: 100%;
-    background: linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%) no-repeat bottom;
-    background-size: 100% 50%;
+    /*background: linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%) no-repeat bottom;*/
+    /*background-size: 100% 50%;*/
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
+}
 
+.studies_card_mobile_header img{
+    max-width: 50%;
 }
 
 .studies_card_mobile_header_info{
@@ -191,4 +198,18 @@
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .studies p{
+        font-size: 16px;
+    }
+    .studies h3{
+        font-size: 22px;
+    }
+    .studies a{
+        font-size: 16px;
+    }
+    .studies .studies_card_actions .studies_see_full{
+        height: auto;
+        padding: 5px 10px;
+    }
+}
