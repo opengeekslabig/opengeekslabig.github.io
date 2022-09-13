@@ -183,3 +183,22 @@
         padding-bottom: 50px;
     }
 }
+
+@media (max-width: 992px) {
+    .registration_row{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .registration_desc_follow{
+        margin-top: 35px;
+    }
+
+    .registration_desc_follow .registration_desc_social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px;
+        margin-top: 18px;
+        padding-left: 10px;
+    }
+}
