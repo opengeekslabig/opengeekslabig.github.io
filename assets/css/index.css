@@ -55,7 +55,8 @@ p{
     font-weight: 700;
 }
 
-body section{
+body section,
+body footer{
     padding: 0 360px;
     overflow-x: hidden;
 }
@@ -128,7 +129,8 @@ header{
 }
 
 @media (max-width: 1600px) {
-    body section{
+    body section,
+    body footer{
         padding: 0 150px;
     }
 }
@@ -156,8 +158,44 @@ header{
     .header_bottom{
         padding-left: 50px;
     }
-    body section{
+    body section,
+    body footer{
         padding: 0 50px;
+    }
+}
+
+body footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer .footer1{
+    margin-left: 200px;
+}
+footer .footer2{
+    margin-left: 98px;
+    color: #7D7191;
+}
+footer .footer3{
+    margin-left: 23px;
+    color: #7D7191;
+}
+
+@media (max-width: 1700px) {
+    body footer{
+    gap: 50px;
+        flex-wrap: wrap;
+    }
+    footer .footer1{
+        margin-left: 0;
+    }
+    footer .footer2{
+        margin-left: 0;
+    }
+    footer .footer3{
+        margin-left: 0;
     }
 }
 

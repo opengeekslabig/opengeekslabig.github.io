@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a2484e-95fe-415e-b96e-6f113ba48444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/Icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/behance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/dribble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +58,7 @@
       <workItem from="1662836191488" duration="599000" />
       <workItem from="1662885760089" duration="599000" />
       <workItem from="1662966360838" duration="12853000" />
-      <workItem from="1663052772645" duration="7193000" />
+      <workItem from="1663052772645" duration="8835000" />
     </task>
     <servers />
   </component>
