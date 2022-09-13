@@ -12,6 +12,10 @@ body{
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 img{
     -webkit-user-drag: none;
     -khtml-user-drag: none;

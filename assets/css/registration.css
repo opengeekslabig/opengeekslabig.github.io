@@ -5,20 +5,153 @@
 
 .registration_row{
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 20px;
 }
 
-.custom-input-file {
+.registration_desc_email{
+    margin-top: 24px;
+    font-weight: 700;
+}
+
+.registration_desc_follow{
+    margin-top: 96px;
+}
+
+.registration_desc_follow .registration_desc_social{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 18px;
+    padding-left: 10px;
+}
+
+.registration_desc_social .registration_desc_social_item img{
+    width: 26px;
+    height: 26px;
+}
+
+.registration_desc_social .registration_desc_social_item{
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.registration_desc_email a{
+    color: #ED6165;
+    text-decoration: none;
+}
+
+.registration_form{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.81%), linear-gradient(90.21deg, #FEDFDF 31.93%, #FFBCF0 64.32%, #FFAAD3 91.51%);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.registration_form .registration_label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
     position: relative;
+}
+
+.registration_form .registration_label p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #281D4C;
+}
+
+.registration_form .registration_label small{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7D7191;
+    text-align: end;
     width: 100%;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.15px;
-    color: #9097A6;
-    background-color: inherit;
+}
+
+.registration_form input[type="text"],
+.registration_form input[type="email"]
+{
+    width: 100%;
+    height: 60px;
     border: none;
-    border-bottom: 1px solid #3E4148;
-    padding: 4px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.registration_form textarea{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.registration_form_sign{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.registration_form_sign input[type="checkbox"]{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.registration_form_sign .registration_form_checkbox+label{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.registration_form_sign .registration_form_checkbox+label::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #ED6165;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.registration_form_sign .registration_form_checkbox:checked+label::before{
+    border-color: #ffffff;
+    background-color: #ED6165;
+}
+
+.registration_form .btn_contact_us{
+    margin-top: 48px;
+    align-self: flex-end;
+}
+
+
+.custom-input-file {
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    background: white;
     outline: none;
     cursor: pointer;
 }
@@ -33,26 +166,14 @@
     top: calc(100% + 8px);
 }
 
-.custom-input-file .wpcf7-form-control-wrap {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.custom-input-file .wpcf7-not-valid-tip {
-    right: 0;
-    left: auto;
-    top: 8px;
-}
-
 .custom-input-file:after {
     content: "";
-    right: 0;
-    top: 0;
+    right: 15px;
+    bottom: 35px;
     position: absolute;
     width: 28px;
     height: 28px;
-    background-image: url('../images/attachment.svg');
+    background-image: url('../img/registration/Icon.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }

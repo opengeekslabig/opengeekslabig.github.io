@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a2484e-95fe-415e-b96e-6f113ba48444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/registration.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faq/arr_up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/studies/card2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/studies/card3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/studies/card4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/Icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/behance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/dribble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/registration/social/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/studies.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/studies.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/studies/card1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/studies/card1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,23 +31,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/studies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/registration" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/registration" />
+      <recent name="$PROJECT_DIR$/assets/img/registration/social" />
       <recent name="$PROJECT_DIR$/assets/img/studies" />
       <recent name="$PROJECT_DIR$/assets/img/faq" />
       <recent name="$PROJECT_DIR$/assets/img/testimonials" />
-      <recent name="$PROJECT_DIR$/assets/img/studies/mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/registration/social" />
       <recent name="$PROJECT_DIR$/assets/img/studies" />
       <recent name="$PROJECT_DIR$/assets/img/process" />
       <recent name="$PROJECT_DIR$/assets/img/specialists" />
       <recent name="$PROJECT_DIR$/assets/img/why" />
-      <recent name="$PROJECT_DIR$/assets/img/numbers" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,6 +66,7 @@
       <workItem from="1662836191488" duration="599000" />
       <workItem from="1662885760089" duration="599000" />
       <workItem from="1662966360838" duration="12853000" />
+      <workItem from="1663052772645" duration="7193000" />
     </task>
     <servers />
   </component>
